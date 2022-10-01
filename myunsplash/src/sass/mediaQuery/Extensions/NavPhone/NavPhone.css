@@ -1,0 +1,246 @@
+@media (max-width: 795px) {
+  .navPhone {
+    display: block;
+  }
+  .allCountent {
+    display: flex;
+    align-items: center;
+  }
+  .allCountent .contentNavPhone {
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    z-index: 99999;
+    left: -40rem;
+    transition: .3s;
+  }
+  .allCountent .contentNavPhone .dataUser {
+    display: flex;
+    cursor: pointer;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: .6rem;
+    border-bottom: 3px solid #b9b5b5;
+  }
+  .allCountent .contentNavPhone .dataUser .photoProfile img {
+    width: 70.15px;
+    height: 70.15px;
+    border-radius: 50%;
+  }
+  .allCountent .contentNavPhone .dataUser .userName {
+    margin: .3rem;
+    margin-left: .7rem;
+  }
+  .allCountent .contentNavPhone .dataUser .userName h1 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .allCountent .contentNavPhone .dataUser .userName p {
+    margin-top: -5px;
+    font-weight: 500;
+    font-size: 16px;
+    opacity: .7;
+  }
+  .allCountent .contentNavPhone nav {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .allCountent .contentNavPhone nav ul {
+    list-style: none;
+  }
+  .allCountent .contentNavPhone nav ul li {
+    position: absolute;
+    font-weight: 700;
+    font-size: 16px;
+    padding: .5rem 0;
+    cursor: pointer;
+    background-color: #3DB46D;
+    width: 84%;
+    margin: auto;
+    border-radius: 12px;
+    color: #fff;
+    margin-top: 1rem;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .allCountent .contentNavPhone nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .allCountent .contentNavPhone nav ul .addPhoto {
+    height: 55px;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  .allCountent .contentNavPhone nav ul .addPhoto button {
+    font-weight: 700;
+    font-size: 16px;
+    padding: .5rem 0;
+    cursor: pointer;
+    background-color: #3DB46D;
+    width: 70%;
+    border-radius: 12px;
+    border: 3px solid #3DB46D;
+    color: #fff;
+    transition: .4s;
+  }
+  .allCountent .contentNavPhone nav ul .addPhoto button:hover {
+    background-color: transparent;
+    color: #3DB46D;
+  }
+  .allCountent .contentNavPhone nav ul input {
+    display: none;
+  }
+  .allCountent .contentNavPhone nav ul label {
+    letter-spacing: .06rem;
+    display: inline-block;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    padding: .5rem 0;
+    cursor: pointer;
+  }
+  .allCountent .contentNavPhone nav ul label:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .allCountent .contentNavPhone nav:hover {
+    display: block;
+  }
+  .allCountent .search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc8c8;
+    border-radius: 10px;
+    width: 85%;
+    padding: 10px;
+    height: 55px;
+    position: relative;
+  }
+  .allCountent .search input {
+    outline: none;
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    margin-left: .5rem;
+    font-size: 15px;
+  }
+  .allCountent .search .searchUser {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    top: 110%;
+    left: 0;
+    background-color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-height: 35vh;
+    overflow-y: scroll;
+  }
+  .allCountent .search .searchUser::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f9f9f9;
+  }
+  .allCountent .search .searchUser::-webkit-scrollbar-thumb {
+    background-color: #3DB46D;
+    border-radius: 7px;
+  }
+  .allCountent .search .searchUser .person {
+    margin: 1rem;
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+  .allCountent .search .searchUser .person .imagePerson img {
+    width: 50.15px;
+    height: 50.15px;
+    border-radius: 50%;
+  }
+  .allCountent .search .searchUser .person .dataPerson {
+    margin-left: .7rem;
+  }
+  .allCountent .search .searchUser .person .dataPerson a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+  }
+  .allCountent .search .searchUser .person .dataPerson p {
+    font-size: 14px;
+  }
+  .list {
+    margin: 1rem;
+  }
+  #list {
+    display: none;
+  }
+  .close {
+    position: absolute;
+    right: 2%;
+  }
+  #list:checked ~ .contentNavPhone {
+    left: 0;
+  }
+}
+
+@media (max-width: 683px) {
+  .allCountent .contentNavPhone .dataUser .photoProfile img {
+    width: 60.15px;
+    height: 60.15px;
+  }
+  .allCountent .contentNavPhone .dataUser .userName h1 {
+    font-weight: 700;
+    font-size: 17px;
+  }
+  .allCountent .contentNavPhone .dataUser .userName p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 601px) {
+  .allCountent .contentNavPhone .dataUser .photoProfile img {
+    width: 50.15px;
+    height: 50.15px;
+  }
+  .allCountent .contentNavPhone .dataUser .userName h1 {
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .allCountent .contentNavPhone .dataUser .userName p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 601px) {
+  .allCountent .contentNavPhone {
+    width: 70%;
+  }
+  .allCountent .contentNavPhone .dataUser .photoProfile img {
+    width: 70.15px;
+    height: 70.15px;
+  }
+  .allCountent .contentNavPhone .dataUser .userName h1 {
+    font-size: 18px;
+  }
+  .allCountent .contentNavPhone .dataUser .userName p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 601px) {
+  .allCountent .contentNavPhone {
+    width: 100%;
+  }
+  .allCountent .contentNavPhone .dataUser .photoProfile img {
+    width: 70.15px;
+    height: 70.15px;
+  }
+  .allCountent .contentNavPhone .dataUser .userName h1 {
+    font-size: 19px;
+  }
+  .allCountent .contentNavPhone .dataUser .userName p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,287 @@
+@media (max-width: 795px) {
+    .navPhone{
+        display: block;
+    }
+    .allCountent{
+        display: flex;
+        align-items: center;
+        & .contentNavPhone{
+            position: absolute;
+            background-color: #f9f9f9;
+            width: 50%;
+            height: 100%;
+            top: 0;
+            z-index: 99999;
+            left: -40rem;
+            transition: .3s;
+            & .dataUser{
+                display: flex;
+                cursor: pointer;
+                margin-top: 2rem;
+                padding-left: 1rem;
+                padding-bottom: .6rem;
+                border-bottom: 3px solid #b9b5b5;
+                & .photoProfile{
+                    & img{
+                        width: 70.15px;
+                        height: 70.15px;
+                        border-radius: 50%;
+                    }
+                }
+                & .userName{
+                    margin: .3rem;
+                    margin-left: .7rem;
+                    & h1{
+                        font-weight: 700;
+                        font-size: 20px;
+                    }
+                    & p{
+                        margin-top: -5px;
+                        font-weight: 500;
+                        font-size: 16px;
+                        opacity: .7;
+                    }
+                }
+            }
+            & nav{
+                width: 100%;
+                text-align: center;
+                margin-top: 1rem;
+                & ul{
+                    list-style: none;
+                    & li{
+                        position: absolute;
+                        font-weight: 700;
+                        font-size: 16px;
+                        padding: .5rem 0;
+                        cursor: pointer;
+                        background-color: #3DB46D;
+                        width: 84%;
+                        margin: auto;
+                        border-radius: 12px;
+                        color: #fff;
+                        margin-top: 1rem;
+                        bottom: 7%;
+                        left: 50%;
+                        transform: translate(-50%);
+                        &:hover{
+                            background-color: rgba(0, 0, 0, 0.20);
+                        }
+                    }
+                    & .addPhoto{
+                        height: 55px;
+                        text-align: center;
+                        margin-top: 0.5rem;
+                        & button{
+                            font-weight: 700;
+                            font-size: 16px;
+                            padding: .5rem 0;
+                            cursor: pointer;
+                            background-color: #3DB46D;
+                            width: 70%;
+                            border-radius: 12px;
+                            border: 3px solid #3DB46D;
+                            color: #fff;
+                            transition: .4s;
+                            &:hover{
+                                background-color: transparent;
+                                color: #3DB46D;
+                            }
+                        }
+                    }
+                    & input{
+                        display: none;
+                    }
+                    & label{
+                        letter-spacing: .06rem;
+                        display: inline-block;
+                        width: 100%;
+                        font-weight: 700;
+                        font-size: 18px;
+                        padding: .5rem 0;
+                        cursor: pointer;
+                        &:hover{
+                            background-color: rgba(0, 0, 0, 0.20);
+                        }
+                    }
+                }
+                &:hover{
+                    display: block;
+                }
+            }
+        }
+        & .search{
+            display: flex;
+            align-items: center;
+            border: 1px solid rgb(204, 200, 200);
+            border-radius: 10px;
+            width: 85%;
+            padding: 10px;
+            height: 55px;
+            position: relative;
+            & input{
+                outline: none;
+                width: 100%;
+                height: 2.5rem;
+                border: none;
+                margin-left: .5rem;
+                font-size: 15px;
+            }
+            & .searchUser{
+                z-index: 999;
+                position: absolute;
+                width: 100%;
+                top: 110%;
+                left: 0;
+                background-color: #fff;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+                max-height: 35vh;
+                overflow-y: scroll;
+                &::-webkit-scrollbar{
+                    width: 10px;
+                    background-color: #f9f9f9;
+                }
+                &::-webkit-scrollbar-thumb{
+                    background-color: #3DB46D;
+                    border-radius: 7px;
+                }
+                & .person{
+                    margin: 1rem;
+                    display: block;
+                    display: flex;
+                    align-items: center;
+                    & .imagePerson{
+                        & img{
+                            width: 50.15px;
+                            height: 50.15px;
+                            border-radius: 50%;
+                        }
+                    }
+                    & .dataPerson{
+                        margin-left: .7rem;
+                        & a{
+                            text-decoration: none;
+                            font-size: 18px;
+                            color: #000;
+                            font-weight: bold;
+                        }
+                        & p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .list{
+        margin: 1rem;
+    }
+    #list{
+        display: none;
+    }
+    .close{
+        position: absolute;
+        right: 2%;
+    }
+    
+    #list:checked ~ .contentNavPhone{
+        left: 0;
+    }
+}
+
+@media (max-width: 683px) {
+    .allCountent{
+        & .contentNavPhone{
+            & .dataUser{
+                & .photoProfile{
+                    & img{
+                        width: 60.15px;
+                        height: 60.15px;
+                    }
+                }
+                & .userName{
+                    & h1{
+                        font-weight: 700;
+                        font-size: 17px;
+                    }
+                    & p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 601px) {
+    .allCountent{
+        & .contentNavPhone{
+            & .dataUser{
+                & .photoProfile{
+                    & img{
+                        width: 50.15px;
+                        height: 50.15px;
+                    }
+                }
+                & .userName{
+                    & h1{
+                        font-weight: 700;
+                        font-size: 15px;
+                    }
+                    & p{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 601px) {
+    .allCountent{
+        & .contentNavPhone{
+            width: 70%;
+            & .dataUser{
+                & .photoProfile{
+                    & img{
+                        width: 70.15px;
+                        height: 70.15px;
+                    }
+                }
+                & .userName{
+                    & h1{
+                        font-size: 18px;
+                    }
+                    & p{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 601px) {
+    .allCountent{
+        & .contentNavPhone{
+            width: 100%;
+            & .dataUser{
+                & .photoProfile{
+                    & img{
+                        width: 70.15px;
+                        height: 70.15px;
+                    }
+                }
+                & .userName{
+                    & h1{
+                        font-size: 19px;
+                    }
+                    & p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

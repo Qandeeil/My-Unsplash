@@ -1,0 +1,103 @@
+@media (max-width: 541px) {
+    .completeSignUp{
+        animation: opacity 1s;
+        & form{
+            margin-top: 5rem;
+            & .addphoto{
+                text-align: center;
+                margin: 5rem 0;
+                display: flex;
+                flex-direction: column;
+                & .preview{
+                    width: 150px;
+                    height: 150px;
+                }
+                & .images{
+                    margin-left: 2rem;
+                    width: 83%;
+                }
+            }
+            & .country{
+                margin-left: 2rem;
+                & label{
+                    font-size: 14px;
+                }
+                & select{
+                    width: 90%;
+                }
+            }
+            & .phoneNumber{
+                margin-left: 2rem;
+                & label{
+                    font-size: 14px;
+                }
+                & .phone{
+                    width: 90%;
+                }
+            }
+            & .flex{
+                justify-content: space-around;
+                width: 94%;
+                & .birthday{
+                    margin: 0 1rem;
+                    width: 42%;
+                    & label{
+                        font-size: 14px;
+                    }
+                }
+                & .gender{
+                    width: 42%;
+                }
+                & label{
+                    font-size: 14px;
+                }
+            }
+            & .button{
+                margin-top: 1rem;
+                margin-left: 2rem;
+                & button{
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 463px) {
+    .completeSignUp{
+        & form{
+            margin-top: 5rem;
+            & .country{
+                margin-left: 0;
+                & select{
+                    width: 100%;
+                }
+            }
+            & .phoneNumber{
+                margin-left: 0;
+                & label{
+                    font-size: 14px;
+                }
+                & .phone{
+                    width: 100%;
+                }
+            }
+            & .flex{
+                width: 100%;
+                & .birthday{
+                    width: 51%;
+                }
+                & .gender{
+                    width: 50%;
+                }
+            }
+            & .button{
+                margin-top: 1rem;
+                margin-left: 0;
+                & button{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

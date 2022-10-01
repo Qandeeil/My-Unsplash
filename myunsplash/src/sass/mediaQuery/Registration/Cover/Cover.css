@@ -1,0 +1,24 @@
+@media (max-width: 1473px) {
+  .header .about {
+    margin-top: 4rem;
+    margin-left: 42px;
+  }
+  .header .about .image {
+    display: none;
+  }
+}
+
+@media (max-width: 1223px) {
+  .header .about {
+    display: none;
+  }
+}
+
+@media (max-width: 463px) {
+  .header {
+    display: none;
+  }
+  .header .about {
+    display: none;
+  }
+}

@@ -1,0 +1,86 @@
+.signUp form .email {
+  margin-top: 2rem;
+}
+
+.signUp form .email label {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.signUp form .email input {
+  width: 100%;
+  height: 52px;
+  border-radius: 15px;
+  margin-top: .5rem;
+  outline: none;
+  padding-left: 1rem;
+}
+
+.signUp form .fullName {
+  margin-top: 2rem;
+}
+
+.signUp form .fullName label {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.signUp form .fullName input {
+  width: 100%;
+  height: 52px;
+  border-radius: 15px;
+  margin-top: .5rem;
+  outline: none;
+  padding-left: 1rem;
+}
+
+.signUp form .username {
+  margin-top: 2rem;
+}
+
+.signUp form .username label {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.signUp form .username input {
+  width: 100%;
+  height: 52px;
+  border-radius: 15px;
+  margin-top: .5rem;
+  outline: none;
+  padding-left: 1rem;
+}
+
+.signUp form .password {
+  margin-top: 2rem;
+}
+
+.signUp form .password label {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.signUp form .password input {
+  width: 100%;
+  height: 52px;
+  border-radius: 15px;
+  margin-top: .5rem;
+  padding: 1rem;
+  outline: none;
+}
+
+.signUp form .button {
+  margin-top: 2rem;
+}
+
+.signUp form .button button {
+  width: 100%;
+  height: 52px;
+  border-radius: 15px;
+  background-color: #0089ED;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}

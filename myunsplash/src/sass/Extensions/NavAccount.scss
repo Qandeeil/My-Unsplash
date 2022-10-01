@@ -1,0 +1,22 @@
+.navAccount{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    & .imagePerson{
+        width: 20%;
+        & img{
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+    & .namePerson{
+        margin-left: 2rem;
+        & h1{
+            font-size: 18px;
+        }
+        & p{
+            font-size: 12px;
+            opacity: .6;
+        }
+    }
+}

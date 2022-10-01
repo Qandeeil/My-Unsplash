@@ -1,0 +1,152 @@
+@media (max-width: 1473px) {
+  .signIn {
+    left: 50%;
+    animation: opacity 1s;
+  }
+}
+
+@media (max-width: 1223px) {
+  .signIn {
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+@media (max-width: 541px) {
+  .signIn {
+    width: 439px;
+    height: 741px;
+  }
+  .signIn .header-signIn {
+    margin: 3rem 2rem;
+  }
+  .signIn .header-signIn .logo p {
+    font-size: 20px;
+  }
+  .signIn .header-signIn .logo h1 {
+    font-size: 45px;
+  }
+  .signIn .header-signIn .newAccount a {
+    font-weight: bold;
+  }
+  .signIn .signWith {
+    justify-content: center;
+  }
+  .signIn .signWith .google {
+    width: 198px;
+    cursor: pointer;
+  }
+  .signIn .signWith .google span {
+    font-size: 13px;
+  }
+  .signIn .signWith .facebook {
+    margin: 0 2rem;
+  }
+  .signIn form .email {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .signIn form .email label {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .signIn form .email input {
+    width: 90%;
+  }
+  .signIn form .password {
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  .signIn form .password label {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .signIn form .password input {
+    width: 90%;
+  }
+  .signIn form .Forgot {
+    font-size: 13px;
+    margin: 1rem 0;
+  }
+  .signIn form .button {
+    margin-left: 2rem;
+  }
+  .signIn form .button button {
+    width: 90%;
+  }
+}
+
+@media (max-width: 463px) {
+  .signIn {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: -18%;
+    animation: none;
+  }
+  .signIn .header-signIn {
+    justify-content: left;
+  }
+  .signIn .header-signIn .logo {
+    margin-right: 30%;
+  }
+  .signIn .header-signIn .logo p {
+    font-size: 17px;
+  }
+  .signIn .header-signIn .logo h1 {
+    font-size: 25px;
+  }
+  .signIn .header-signIn .newAccount a {
+    font-weight: bold;
+  }
+  .signIn .signWith {
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 1rem;
+  }
+  .signIn .signWith .google {
+    width: 70%;
+    cursor: pointer;
+  }
+  .signIn .signWith .google span {
+    font-size: 13px;
+  }
+  .signIn .signWith .facebook {
+    margin: 0 0.5rem;
+  }
+  .signIn form {
+    width: 90%;
+    margin: auto;
+  }
+  .signIn form .email {
+    margin-left: 0;
+  }
+  .signIn form .email input {
+    width: 100%;
+  }
+  .signIn form .password {
+    margin-left: 0;
+  }
+  .signIn form .password input {
+    width: 100%;
+  }
+  .signIn form .button {
+    margin-left: 0;
+  }
+  .signIn form .button button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 418px) {
+  .signIn .header-signIn .logo {
+    margin-right: 20%;
+  }
+  .signIn .header-signIn .logo p {
+    font-size: 13px;
+  }
+  .signIn .header-signIn .logo h1 {
+    font-size: 20px;
+  }
+}

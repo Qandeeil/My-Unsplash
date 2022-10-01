@@ -1,0 +1,123 @@
+.addPhotoClick {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  margin-top: -1rem;
+}
+
+.addPhotoClick .content {
+  position: absolute;
+  width: 620px;
+  height: 340.2px;
+  border-radius: 12px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.addPhotoClick .content header {
+  margin-left: 32px;
+  margin-top: 24px;
+}
+
+.addPhotoClick .content header h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.addPhotoClick .content form {
+  margin-left: 32px;
+  margin-top: 24px;
+}
+
+.addPhotoClick .content form label:first-child {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1px;
+  margin-left: 2px;
+}
+
+.addPhotoClick .content form input:first-of-type {
+  height: 55px;
+  width: 95%;
+  border-radius: 18px;
+  border: 1px solid #4F4F4F;
+  padding-left: 18px;
+  outline: none;
+}
+
+.addPhotoClick .content form input:first-of-type::placeholder {
+  font-weight: 500;
+}
+
+.addPhotoClick .content form #file {
+  display: none;
+}
+
+.addPhotoClick .content form label:last-of-type {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #2e80ed;
+  width: 95%;
+  text-align: center;
+  border: 3px solid #2e80ed;
+  border-radius: 18px;
+  height: 55px;
+  line-height: 52px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.addPhotoClick .content form label:last-of-type:hover {
+  background-color: transparent;
+  color: #2e80ed;
+}
+
+.addPhotoClick .content form .button {
+  margin-top: 2rem;
+  float: right;
+  margin-right: 32px;
+}
+
+.addPhotoClick .content form .button button {
+  width: 105px;
+  height: 55px;
+  background-color: #3DB46D;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.addPhotoClick .content form .button button:first-child {
+  background-color: red;
+  color: #fff;
+  border: 3px solid red;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  transition: .3s;
+}
+
+.addPhotoClick .content form .button button:first-child:hover {
+  background-color: transparent;
+  color: red;
+}
+
+.addPhotoClick .content form .button button:last-child {
+  border: 3px solid #3DB46D;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  transition: .3s;
+}
+
+.addPhotoClick .content form .button button:last-child:hover {
+  background-color: transparent;
+  color: #3DB46D;
+}

@@ -1,0 +1,105 @@
+@media (max-width: 541px) {
+    .signUp{
+        animation: opacity 1s;
+        & form{
+            & .email{
+                margin-top: 2rem;
+                margin-left: 2rem;
+                & label{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                & input{
+                    width: 90%;
+                }
+            }
+            & .fullName{
+                margin-top: 2rem;
+                margin-left: 2rem;
+                & label{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                & input{
+                    width: 90%;
+                }
+            }
+            & .username{
+                margin-top: 2rem;
+                margin-left: 2rem;
+                & label{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                & input{
+                    width: 90%;
+                }
+            }
+            & .password{
+                margin-top: 2rem;
+                margin-left: 2rem;
+                & label{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                & input{
+                    width: 90%;
+                }
+            }
+            & .button{
+                margin-left: 2rem;
+                & button{
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 463px) {
+    .signUp{
+        animation: none;
+        & .header-signIn{
+            & .logo{
+                margin-right: 15%;
+            }
+            & .newAccount{
+                & a{
+                    font-weight: bold;
+                }
+            }
+        }
+        & form{
+            & .email{
+                margin-left: 0;
+                & input{
+                    width: 100%;
+                }
+            }
+            & .fullName{
+                margin-left: 0;
+                & input{
+                    width: 100%;
+                }
+            }
+            & .username{
+                margin-left: 0;
+                & input{
+                    width: 100%;
+                }
+            }
+            & .password{
+                margin-left: 0;
+                & input{
+                    width: 100%;
+                }
+            }
+            & .button{
+                margin-left: 0;
+                & button{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

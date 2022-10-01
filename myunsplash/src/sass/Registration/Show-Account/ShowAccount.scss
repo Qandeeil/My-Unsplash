@@ -1,0 +1,40 @@
+.users{
+    margin-left: 42px;
+    margin-top: 32px;
+    width: 60%;
+    position: relative;
+    & .text{
+        margin-bottom: 1rem;
+    }
+    & .allUser{
+        & .user{
+            background-color: #EFF8FF;
+            border-radius: 25px;
+            width: 25%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 264px;
+            margin: 0 1rem 1rem 0;
+            display: inline-flex;
+            text-align: center;
+            & img{
+                width: 140px;
+                height: 140px;
+                border-radius: 50%;
+            }
+            & a{
+                margin-top: .4rem;
+                width: 80%;
+                font-size: 17px;
+                color: black;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            & p{
+                opacity: .5;
+                font-size: 15px;
+            }
+        }
+    }
+}

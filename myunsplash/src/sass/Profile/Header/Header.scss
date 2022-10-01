@@ -1,0 +1,176 @@
+.headerProfile{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    & .account{
+        & .dataUser{
+            display: flex;
+            cursor: pointer;
+            & .photoProfile{
+                & img{
+                    width: 50.15px;
+                    height: 50.15px;
+                    border-radius: 50%;
+                }
+            }
+            & .userName{
+                margin: .3rem;
+                & h1{
+                    font-weight: 700;
+                    font-size: 17px;
+                }
+                & p{
+                    margin-top: -5px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    opacity: .7;
+                }
+            }
+        }
+        & nav{
+            position: absolute;
+            width: 20%;
+            background-color: #f9f9f9;
+            text-align: center;
+            z-index: 5;
+            border-top: 0;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            display: none;
+            animation: moveInDown .7s;
+            & ul{
+                list-style: none;
+                & li{
+                    font-weight: 500;
+                    padding: .5rem 0;
+                    cursor: pointer;
+                    transition: .4s;
+                    border-bottom-left-radius: 12px;
+                    border-bottom-right-radius: 12px;
+                    &:hover{
+                        background-color: rgba(0, 0, 0, 0.20);
+                    }
+                }
+                & input{
+                    display: none;
+                }
+                & label{
+                    display: inline-block;
+                    width: 100%;
+                    font-weight: 500;
+                    padding: .5rem 0;
+                    cursor: pointer;
+                    transition: .4s;
+                    &:hover{
+                        background-color: rgba(0, 0, 0, 0.20);
+                    }
+                }
+            }
+            &:hover{
+                display: block;
+            }
+        }
+        & .dataUser:hover ~ nav{
+            display: block;
+        }
+    }
+    & .search{
+        display: flex;
+        align-items: center;
+        border: 1px solid rgb(204, 200, 200);
+        border-radius: 10px;
+        width: 50%;
+        padding: 10px;
+        height: 55px;
+        position: relative;
+        & input{
+            outline: none;
+            width: 100%;
+            height: 2.5rem;
+            border: none;
+            margin-left: .5rem;
+            font-size: 15px;
+        }
+        & .searchUser{
+            z-index: 999;
+            position: absolute;
+            width: 100%;
+            top: 110%;
+            left: 0;
+            background-color: #fff;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            max-height: 35vh;
+            overflow-y: scroll;
+            &::-webkit-scrollbar{
+                width: 10px;
+                background-color: #f9f9f9;
+            }
+            &::-webkit-scrollbar-thumb{
+                background-color: #3DB46D;
+                border-radius: 7px;
+            }
+            & .person{
+                margin: 1rem;
+                display: block;
+                display: flex;
+                align-items: center;
+                & .imagePerson{
+                    & img{
+                        width: 50.15px;
+                        height: 50.15px;
+                        border-radius: 50%;
+                    }
+                }
+                & .dataPerson{
+                    margin-left: .7rem;
+                    & a{
+                        text-decoration: none;
+                        font-size: 18px;
+                        color: #000;
+                        font-weight: bold;
+                    }
+                    & p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    & .addPhoto{
+        height: 55px;
+        text-align: center;
+        & button{
+            width: 137px;
+            height: 100%;
+            background-color: #3DB46D;
+            border-radius: 12px;
+            border: 3px solid #3DB46D;
+            color: #fff;
+            font-weight: 700;
+            font-size: 15px;
+            cursor: pointer;
+            transition: .4s;
+            &:hover{
+                background-color: transparent;
+                color: #3DB46D;
+            }
+        }
+    }
+}
+.navPhone{
+    display: none;
+}
+@keyframes moveInDown{
+    0%{
+        transform: translateY(-2rem);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.hide{
+    display: none;
+}

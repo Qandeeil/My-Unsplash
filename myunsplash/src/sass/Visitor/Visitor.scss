@@ -1,0 +1,9 @@
+.visitor{
+    & .headerProfile{
+        justify-content: space-around;
+        display: flex;
+        & .account{
+            width: 100%;
+        }
+    }
+}
