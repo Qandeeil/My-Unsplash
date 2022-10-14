@@ -17,6 +17,8 @@ https://www.youtube.com/watch?v=zSpvirbzzHM
 
 # Pictures about the project
 
-![page 1](https://im3.ezgif.com/tmp/ezgif-3-887b68ea73.png)
---------------------------------------------------------------
-![page 2](https://im3.ezgif.com/tmp/ezgif-3-dab6686222.png)
+Page 1: 
+https://drive.google.com/file/d/1gRU34MyoHLXsG7XfQHo6rvW1KXId7Iqy/view?usp=sharing
+
+Page 2:
+https://drive.google.com/file/d/13Cna_dJy2qOMaQpD3In1AH8PNHU5Xuhp/view?usp=sharing
